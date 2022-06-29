@@ -20,7 +20,7 @@ import {
   useGetCryptoHistoryQuery,
 } from "../services/cryptoApi";
 import Loader from "./Loader";
-import LineChart from "./LineChart";
+// import LineChart from "./LineChart";
 
 const { Title, Text } = Typography;
 const { Option } = Select;
