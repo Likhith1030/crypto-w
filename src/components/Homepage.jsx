@@ -23,7 +23,7 @@ const Homepage = () => {
       </Title>
       <Row gutter={[32, 32]}>
         <Col span={12}>
-          <Statistic title="Total Cryptocurrencies" value={18000} />
+          <Statistic title="Total Cryptocurrencies" value={20268} />
         </Col>
         <Col span={12}>
           <Statistic
@@ -43,9 +43,9 @@ const Homepage = () => {
             value={`$${millify(globalStats.total24hVolume)}`}
           />
         </Col>
-        <Col span={12}>
+        {/* <Col span={12}>
           <Statistic title="Total Cryptocurrencies" value={globalStats.total} />
-        </Col>
+        </Col> */}
         <Col span={12}>
           <Statistic
             title="Total Markets"
